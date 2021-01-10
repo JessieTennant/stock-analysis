@@ -27,6 +27,7 @@
 - The original code ran for 0.78125 seconds, whereas the refactored code only ran for 0.1015625 seconds. The refactored code runs 0.6796875 seconds faster the the original. In the oringinal code, when looping through all the rows, there are three if conditionals performed, and two of them have to have two conditions met (if (A & B) instead of just if(A)), whereas in the new code only two conditionals were necessary, and each "if" only has to have one condition met. When there are less conditions that need to be checked, the code runs faster. 
 
 [VBA_Challenge.vbs](VBA_Challenge.vbs)
+
 [VBA_Challenge.xlsx](VBA_Challenge.xlsx)
 
 ## Summary
